@@ -1,0 +1,56 @@
+{
+  "title": "Timeline Template",
+  "intro": {
+    "title": "Your Timeline Story",
+    "text": "A chronological journey through your chapters"
+  },
+  "chapters": [
+    {
+      "order": 1,
+      "title": "The Beginning",
+      "image": "images/chapter1.png",
+      "imageAlt": "Chapter 1 illustration",
+      "content": [
+        "This is where your first chapter begins. You can write multiple paragraphs here, and each one will be displayed separately.",
+        "You can add as much text as you'd like. This template supports multiple paragraphs for each chapter.",
+        "Feel free to describe the events, characters, or key moments that happen in this chapter."
+      ],
+      "metadata": "Optional: Add dates, locations, or other metadata here"
+    },
+    {
+      "order": 2,
+      "title": "Rising Action",
+      "image": "images/chapter2.png",
+      "imageAlt": "Chapter 2 illustration",
+      "content": [
+        "As the story progresses, tensions begin to rise. This is your second chapter where you can describe the developing plot.",
+        "The narrative continues to unfold, revealing more about the characters and their motivations.",
+        "Each chapter can have its own unique image and content that helps tell your story."
+      ]
+    },
+    {
+      "order": 3,
+      "title": "The Climax",
+      "image": "images/chapter3.png",
+      "imageAlt": "Chapter 3 illustration",
+      "content": [
+        "This is the pivotal moment in your timeline. The climax of your story where everything comes together.",
+        "Describe the key events, the turning point, and the resolution of major conflicts.",
+        "You can customize each chapter with different lengths of content."
+      ],
+      "metadata": "A crucial moment in the timeline"
+    },
+    {
+      "order": 4,
+      "title": "Resolution",
+      "image": "images/chapter4.png",
+      "imageAlt": "Chapter 4 illustration",
+      "content": [
+        "The final chapter brings closure to your timeline. Here you can wrap up the story and provide final thoughts.",
+        "Describe how everything concludes and what the future holds for your characters or events.",
+        "This template makes it easy to add, remove, or reorder chapters by editing the JSON file."
+      ]
+    }
+  ]
+}
+
