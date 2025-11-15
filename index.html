@@ -1,0 +1,170 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Timeline Template</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-content">
+				<h1 class="site-title">Timeline Template</h1>
+			</div>
+		</header>
+
+		<div class="layout-container">
+			<aside class="sidebar">
+				<nav class="nav" id="chapterNav">
+					<!-- Navigation will be dynamically generated -->
+				</nav>
+			</aside>
+
+			<main class="main-content">
+			<div class="intro-section">
+				<h2 class="intro-title">Your Timeline Story</h2>
+				<p class="intro-text">A chronological journey through your chapters</p>
+			</div>
+
+			<div id="chaptersContainer" class="chapters-container">
+				<!-- Chapters will be dynamically generated from JSON -->
+			</div>
+			</main>
+		</div>
+
+		<footer class="footer">
+			<p>Timeline Template - Edit data.json to update content</p>
+		</footer>
+
+		<!-- Timeline data - Edit this section or copy from data.json -->
+		<script id="timeline-data" type="application/json">
+	{
+	  "title": "Timeline Template",
+	  "intro": {
+		"title": "The Giver",
+		"text": "A story about a young boy's fight for love and freedom"
+	  },
+	  "chapters": [
+		{
+		  "order": 1,
+		  "title": "Family Gatherings",
+		  "image": "images/image01.png",
+		  "imageAlt": "Chapter 1 illustration",
+		  "content": [
+			"During breakfast and dinner everyday, by the rules of the committee, they had to share their dreams and in the morning and in the evening share their feelings about the day."
+		  ]
+		},
+		{
+		  "order": 2,
+		  "title": "The Dream",
+		  "image": "images/image02.png",
+		  "imageAlt": "Chapter 2 illustration",
+		  "content": [
+			"Jonas had a dream. He remembered wanting Fiona to get into the bath and take off her clothes. In the morning, he had to obey the rules and awkwardly tell his family. His mother gave him pills to help take care of the stirrings(feelings) he had had. On his way to school he remembered waking up wanting to feel the stirrings again, but the pills had stopped them."
+		  ]
+		},
+		{
+		  "order": 3,
+		  "title": "The Ceremony of Twelve",
+		  "image": "images/image03.png",
+		  "imageAlt": "Chapter 3 illustration",
+		  "content": [
+			"During the ceremony of twelve, all kids thirteen and under got to move up into another number group. When they went from eleven to twelve, they gave the Twelves a job. In the chronological order Jonas was skipped. He was very nervous. After all of the twelves had gotten their new job, Jonas finally was called on. The Chief Elder told him he had a very important job and it would be painful and hard. She told him his job was the receiver of memory."
+		  ]
+		},
+		{
+		  "order": 4,
+		  "title": "The First Day of Training",
+		  "image": "images/image04.png",
+		  "imageAlt": "Chapter 4 illustration",
+		  "content": [
+			"Jonas went to the Annex and the first person he met was the lady at the front desk. She told him where to go. He went into the room and met an older person who said his name was the giver. After talking a little bit, the Giver told him to take off his cloak, lay down on the soft bed, and close his eyes. The Giver put his hand on Jonas's bare back and suddenly Jonas was on a sled, which he just now learned the name of. He glided down the hill and looked down at the runners. The snow was falling and he was having a lot of fun. Suddenly he started to slow and suddenly the fun stopped he opened his eyes, and he was back in the Annex. The Giver told him it would not all be fun and some of it would be painful."			
+		  ]
+		},
+		{
+		  "order": 5,
+		  "title": "Colors",
+		  "image": "images/image05.png",
+		  "imageAlt": "Chapter 4 illustration",
+		  "content": [
+			"Jonas was riding to the Annex with his friend Fiona. When it was time to depart, Fiona's hair suddenly flashed red. This was starting to happen to Jonas more and more. The first time it had happened was with a red apple and also during the ceremony of twelve where the people of the community's skin had turned red. The Giver said eventually it would be constant with all the colors."
+		  ]
+		}
+		,
+		{
+		  "order": 6,
+		  "title": "Jonas Gives His First Memory",
+		  "image": "images/image06.png",
+		  "imageAlt": "Chapter 4 illustration",
+		  "content": [
+			"At dinner Jonas told his family that Gabriel could go in his room that night so that his mom and dad could sleep. His parents decided it would be okay. That night Gabriel woke up, and Jonas started patting his back. He started to think about the peaceful sailboat ride the Giver had given him. Suddenly he realized the memory was fading and Gabriel's breathing had slowed and he was now fast asleep. Jonas had given his fist memory. He continued to do this every night, and this would always put Gabriel to sleep."
+		  ]
+		}
+		,
+		{
+		  "order": 7,
+		  "title": "The Bad and the Good Memories",
+		  "image": "images/image07.png",
+		  "imageAlt": "Chapter 4 illustration",
+		  "content": [
+		  "As Jonas's training went on, the Giver gave him many memories. One day Jonas walked in and saw the Giver was in great distress. Jonas would usually say, \"I'll come back tomorrow,\" but that day he asked, \"Is there anything I can do for you?\" The Giver said, \"Please take some of the pain,\" so Jonas lay down on the bed and closed his eyes. He suddenly smelled a foul smell and saw men lying on the ground wailing. A boy next to him asked for water, which he gave him. Horses and men were lying on the ground wishing to die. Cannon fire sounded in the distance. After hours it was finally over. Later the Giver gave him a very good memory with love in it: a Christmas celebration with family and warmth. The Giver continued to give him good and bad memories like the time where he broke his leg sledding down the hill, but Jonas kept persevering."
+		  ]
+		}	
+		,
+		{
+		  "order": 8,
+		  "title": "Jonas Stops Taking the Pills",
+		  "image": "images/image08.png",
+		  "imageAlt": "Chapter 4 illustration",
+		  "content": [
+			"Jonas had a feeling he should stop taking the pills. He didn't know why, but he did. After he stopped taking the pills, he started being able to remember memories easier and he could constantly see colors. Also, he had feelings/stirrings again."
+		  ]
+		}
+		,
+		{
+		  "order": 9,
+		  "title": "Twin's Release",
+		  "image": "images/image09.png",
+		  "imageAlt": "Chapter 4 illustration",
+		  "content": [
+			"One set of twins are born. Jonas's father said that he weighs them, takes the lighter twin, and performs the ceremony of release. The next day, Jonas went to the Annex (the place where he and the Giver meet everyday) and asked the Giver about the release. The Giver decided to show him the release that his father had done. His father weighed the naked babies and gave the heavier one to an assistant. Then he takes the lighter baby, put a needle in the baby's forehead, and then put the dead baby down a trash chute. This is when Jonas decided something had to change and he and the Giver started to formulate a plan."
+		  ]
+		}
+		,
+		{
+		  "order": 10,
+		  "title": "Jonas and the Giver Decide to Carry out the Plan",
+		  "image": "images/image10.png",
+		  "imageAlt": "Chapter 4 illustration",
+		  "content": [
+			"After watching the twin's release, Jonas decided he didn't want to go home. The Giver decided he could stay with him that night. That night they developed a plan where Jonas would run away leaving all the memories for the community to handle. The Giver would stay behind to help the community with all the memories it would receive."
+		  ]
+		}
+		,
+		{
+		  "order": 11,
+		  "title": "Jonas Leaves Early",
+		  "image": "images/image11.png",
+		  "imageAlt": "Chapter 4 illustration",
+		  "content": [
+			"The evening after they developed the plan, Jonas, while eating his dinner, heard his father say that Gabe will be released in the morning because he is not sleeping through the night. That night Jonas decided to leave early with Gabriel."
+		  ]
+		}
+		,
+		{
+		  "order": 12,
+		  "title": "Jonas's Escape",
+		  "image": "images/image12.png",
+		  "imageAlt": "Chapter 4 illustration",
+		  "content": [
+			"After Jonas decided to leave early, he grabbed Gabriel, who had been sleeping in his room, and put him into his dad's bike carrier. He grabbed some food and started pedaling away on his dad's bike. Once safely out of the community, he road along a path. In the morning Gabriel woke up, but Jonas gave him an exhausting memory so they could sleep. They repeated sleeping in the day and riding in the night. While planes flew over, he gave them cold memories so that the heat sensors on the plane would not detect them. After a couple of days, Jonas started running out of food. The snow fell and Jonas only cared for Gabriel's life. He tried to give Gabriel warm memories but his memories had mostly faded. Finally he climbed up on a snowy hill and found the sled, like in his memories. He and Gabriel sled down the hill toward warmth, light, and music."
+		  ]
+		}
+	  ]
+	}
+		</script>
+
+		<script src="script.js"></script>
+	</body>
+	</html>
+
