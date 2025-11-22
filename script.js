@@ -304,7 +304,7 @@ function updateIntro(introData) {
     }
 
     if (introData.text && introText) {
-        introText.textContent = introData.text;
+        introText.innerHTML = introData.text;
     }
 }
 
